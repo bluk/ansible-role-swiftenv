@@ -1,0 +1,17 @@
+galaxy_info:
+  author: Bryant Luk
+  role_name: swiftenv
+  description: Installs swiftenv
+  license: Apache
+  min_ansible_version: 2.6
+  platforms:
+    - name: MacOSX
+      versions:
+        - all
+  galaxy_tags:
+    - swiftenv
+    - swift
+    - development
+    - system
+    - packaging
+dependencies: []

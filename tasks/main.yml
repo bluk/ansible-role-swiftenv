@@ -1,0 +1,7 @@
+---
+# tasks file for ansible-role-swiftenv
+- name: Install swiftenv
+  git:
+    repo: "{{ swiftenv_git_url }}"
+    dest: "{{ swiftenv_install_path }}"
+    update: "{{ swiftenv_git_update }}"

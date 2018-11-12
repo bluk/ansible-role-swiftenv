@@ -1,0 +1,6 @@
+---
+# defaults file for ansible-role-swiftenv
+swiftenv_install_path: ~/.switenv
+
+swiftenv_git_url: https://github.com/kylef/swiftenv.git
+swiftenv_git_update: true
